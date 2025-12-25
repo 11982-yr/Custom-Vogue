@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CustomVogue — The Briefs</title>
+  <meta name="description" content="Editorial chic landing page for CustomVogue." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="mark" href="#top">CUSTOMVOGUE</a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="briefs.html">The Briefs</a>
+        <a href="about.html">About</a>
+        <a href="pro.html">PRO</a>
+        <a href="#subscribe">Subscribe</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="icon-btn" aria-label="Search">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M10.5 3a7.5 7.5 0 1 0 4.66 13.38l3.23 3.23 1.41-1.41-3.23-3.23A7.47 7.47 0 0 0 10.5 3Zm0 2a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11Z"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-label="Featured story">
+      <div class="hero__media">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          disablepictureinpicture
+        >
+          <source src="assets/White and Brown Modern Simple Sparkle Illustrative Fashion Store Coming Soon Video.mp4" type="video/mp4" />
+        </video>
+
+        <!-- Mobile fallback image -->
+        <img class="hero__fallback" src="assets/hero.jpg" alt="" />
+      </div>
+
+      <div class="hero__overlay" aria-hidden="true"></div>
+    </section>
+
+    <!-- Intro -->
+    <section class="intro">
+      <div class="wrap intro__inner">
+        <p class="intro__kicker">CustomVogue is a fashion-tech studio for MENA.</p>
+        <h2 class="intro__title">Trend intelligence, customization, and 3D workflows — designed with an editorial sensibility.</h2>
+
+        <div class="intro__chips">
+          <span class="chip">TrendVogue PRO™</span>
+          <span class="chip">CustomFit</span>
+          <span class="chip">3D & AI</span>
+          <span class="chip">Forecasting</span>
+        </div>
+      </div>
+    </section>
+
+<div class="wrap latest__list latest__grid">
+  <a class="latest-card" href="briefs/mena-silhouettes.html">
+    <div class="latest-thumb">
+      <img src="assets/mena.png" alt="MENA silhouettes cover" />
+    </div>
+    <div class="latest-content">
+      <span class="latest-tag">Forecast</span>
+      <span class="latest-headline">MENA silhouettes to watch this season</span>
+      <span class="latest-meta">3 min read</span>
+    </div>
+  </a>
+
+  <a class="latest-card" href="briefs/intentional-customization.html">
+    <div class="latest-thumb">
+      <img src="assets/Intentional Customization.jpg" alt="Intentional customization cover" />
+    </div>
+    <div class="latest-content">
+      <span class="latest-tag">Consumer</span>
+      <span class="latest-headline">The rise of intentional customization</span>
+      <span class="latest-meta">4 min read</span>
+    </div>
+  </a>
+
+  <a class="latest-card" href="briefs/smaller-batches.html">
+    <div class="latest-thumb">
+      <img src="assets/batches.png" alt="Smarter batches cover" />
+    </div>
+    <div class="latest-content">
+      <span class="latest-tag">Production</span>
+      <span class="latest-headline">Smaller batches, smarter decisions</span>
+      <span class="latest-meta">5 min read</span>
+    </div>
+  </a>
+</div>
+
+    <!-- Featured Briefs -->
+    <section class="briefs">
+      <div class="wrap">
+        <div class="briefs__head">
+          <h2 class="latest__title">Featured Briefs</h2>
+          <a class="latest__cta" href="briefs.html">All briefs →</a>
+        </div>
+
+        <div class="briefs__grid">
+          <a class="brief" href="briefs/mena-silhouettes.html">
+            <p class="brief__tag">Forecast</p>
+            <h3 class="brief__title">MENA silhouettes to watch this season</h3>
+            <p class="brief__copy">A calm read on what’s moving—without the noise.</p>
+          </a>
+
+          <a class="brief" href="briefs/intentional-customization.html">
+            <p class="brief__tag">Consumer</p>
+            <h3 class="brief__title">The rise of intentional customization</h3>
+            <p class="brief__copy">Made-to-order behavior, pricing psychology, and fit.</p>
+          </a>
+
+          <a class="brief" href="briefs/smarter-batches.html">
+            <p class="brief__tag">Production</p>
+            <h3 class="brief__title">Smaller batches, smarter decisions</h3>
+            <p class="brief__copy">How 3D validation reduces waste and returns.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial cards -->
+    <section class="editorial" id="about">
+      <div class="wrap grid">
+        <article class="card">
+          <p class="eyebrow">TrendVogue / PRO™</p>
+          <h3>Design with data, not noise.</h3>
+          <p class="copy">Regional trend intelligence for MENA—refined, localized, and ready for product planning.</p>
+          <a class="text-link" href="pro.html">Explore insights</a>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">CustomFit</p>
+          <h3>Made-to-order, beautifully.</h3>
+          <p class="copy">On-demand customization with a luxury editorial experience—less waste, more intention.</p>
+          <a class="text-link" href="pro.html#pricing">Request a demo</a>
+        </article>
+
+        <article class="card">
+          <p class="eyebrow">3D Workflow</p>
+          <h3>Prototype digitally. Produce precisely.</h3>
+          <p class="copy">A calmer pipeline: visualize → validate → forecast → produce in smarter batches.</p>
+          <a class="text-link" href="pro.html">See the workflow</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Subscribe -->
+    <section class="subscribe" id="subscribe">
+      <div class="wrap subscribe__inner">
+        <div>
+          <h2 class="subscribe__title">Subscribe</h2>
+          <p class="subscribe__copy">One chic brief per week. No noise.</p>
+        </div>
+
+        <form class="subscribe__form">
+          <input type="email" placeholder="you@email.com" required />
+          <button type="submit">Join</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__inner">
+        <div>
+          <h2 class="subscribe__title">Contact</h2>
+          <p class="subscribe__copy">Partnerships, pilots, press, or brand inquiries.</p>
+          <p class="contact__small">Email: hello@customvogue.com</p>
+        </div>
+
+        <form class="contact__form">
+          <input name="name" placeholder="Name" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <textarea name="message" rows="4" placeholder="Tell us what you’re building…" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrap footer__inner">
+        <p class="footer__mark">CUSTOMVOGUE</p>
+        <p class="footer__muted">Riyadh • Fashion + AI</p>
+      </div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
